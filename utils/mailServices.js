@@ -4,7 +4,7 @@ exports.sendMail = async (email, message, subject, attachment) => {
   console.log({attachment})
   const data = JSON.stringify({
     to: email,
-    sender_name: 'UNIZIK',
+    sender_name: 'Appmart Tooling System',
     sender_email: 'noreply@unizik.edu.ng',
     vendor_code: 788897564,
     encoded: true,
